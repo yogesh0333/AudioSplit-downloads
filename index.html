@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AudioSplit routes each Mac app to its own speaker, headset, or audio interface.">
+  <title>AudioSplit — One Mac, many outputs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav><a class="wordmark" href="#">AudioSplit</a><a href="#uses">Use cases</a><a href="#download">Download</a></nav>
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span></span> Native per-app audio routing for macOS</div>
+      <h1>Every app.<br><em>Its own output.</em></h1>
+      <p class="lead">Send Zoom to your Mac speakers, VLC to AirPods, and music to a USB DAC—at the same time, with independent volume.</p>
+      <div class="actions">
+        <a class="primary" href="downloads/AudioSplit-macOS-arm64.zip">Download for macOS</a>
+        <span>macOS 14.2+ · Apple silicon · Preview</span>
+      </div>
+      <div class="router" aria-label="AudioSplit routing example">
+        <div class="route"><div class="app"><b>Z</b><span><strong>Zoom</strong><small>Meeting audio</small></span></div><i></i><div class="output"><span>●</span> MacBook Speakers</div></div>
+        <div class="route"><div class="app"><b class="orange">V</b><span><strong>VLC</strong><small>150% volume</small></span></div><i></i><div class="output"><span>●</span> AirPods Pro</div></div>
+        <div class="route"><div class="app"><b class="green">S</b><span><strong>Spotify</strong><small>Music</small></span></div><i></i><div class="output"><span>●</span> USB DAC</div></div>
+      </div>
+    </section>
+
+    <section id="uses" class="section">
+      <p class="kicker">Made for real multitasking</p>
+      <h2>Public use cases</h2>
+      <div class="grid">
+        <article><span>01</span><h3>Work without interruption</h3><p>Keep calls on speakers while private media stays in headphones.</p></article>
+        <article><span>02</span><h3>Stream and monitor</h3><p>Route a game, chat, music, and monitoring feeds to separate devices.</p></article>
+        <article><span>03</span><h3>Shared spaces</h3><p>Let two people listen to different apps from one Mac without swapping the system output.</p></article>
+        <article><span>04</span><h3>Accessibility</h3><p>Boost one quiet app independently without making alerts or meetings painfully loud.</p></article>
+        <article><span>05</span><h3>Audio production</h3><p>Send reference media to headphones while a DAW remains on studio monitors.</p></article>
+        <article><span>06</span><h3>Presentations and demos</h3><p>Keep audience audio on the room system and private cues on a headset.</p></article>
+      </div>
+    </section>
+
+    <section id="download" class="download">
+      <div><p class="kicker">Early preview</p><h2>Try AudioSplit</h2><p>The current build is ad-hoc signed for testing. macOS may require you to approve it in Privacy &amp; Security and grant System Audio Recording access.</p></div>
+      <div class="download-cards">
+        <a href="downloads/AudioSplit-macOS-arm64.zip"><strong>macOS</strong><span>Apple silicon · 14.2+</span><b>Download ↓</b></a>
+        <div class="disabled"><strong>Windows</strong><span>WASAPI backend required</span><b>In development</b></div>
+      </div>
+    </section>
+  </main>
+  <footer><span>AudioSplit preview</span><span>Built with SwiftUI + Core Audio</span></footer>
+</body>
+</html>
